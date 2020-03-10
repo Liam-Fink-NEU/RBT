@@ -1,6 +1,7 @@
 import React from 'react'
-import {Tab} from 'semantic-ui-react'
+import {Button, Grid, Tab} from 'semantic-ui-react'
 import Resources from './Resources.js';
+import WebData from "./WebData";
 import LogIn from "./LogIn";
 import CreateAccount from "./CreateAccount";
 import Home1 from "./Home1";
@@ -8,7 +9,6 @@ import Home from "./Home";
 import Rose from "./Rose";
 import Bud from "./Bud";
 import Thorn from "./Thorn";
-import Archives from "./Archives"
 
 const panes = [
     { menuItem: 'Log In', render: () => <Tab.Pane> <LogIn/> </Tab.Pane> },
@@ -18,7 +18,7 @@ const panes = [
     { menuItem: 'Rose', render: () => <Tab.Pane> <Rose/> </Tab.Pane> },
     { menuItem: 'Bud', render: () => <Tab.Pane> <Bud/> </Tab.Pane> },
     { menuItem: 'Thorn', render: () => <Tab.Pane> <Thorn/> </Tab.Pane> },
-    { menuItem: 'Archives', render: () => <Tab.Pane> <Archives/> </Tab.Pane> },
+    { menuItem: 'Archives', render: () => <Tab.Pane><WebData/></Tab.Pane> },
     { menuItem: 'Resources', render: () => <Tab.Pane> <Resources/> </Tab.Pane> },
 ];
 

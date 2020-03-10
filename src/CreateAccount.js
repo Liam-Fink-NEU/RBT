@@ -1,4 +1,4 @@
-import {Button, Form, Grid, Header, Image, Modal, TextArea, Calendar} from "semantic-ui-react";
+import {Button, Form, Grid, Header, Image, Modal, TextArea} from "semantic-ui-react";
 import React, {Component} from "react";
 
 export default class CreateAccount extends Component {
@@ -6,7 +6,7 @@ export default class CreateAccount extends Component {
         return (
             <div className="App">
                 <header className="App-header">
-                    <Grid columns={3} >
+                    <Grid columns={3}>
                         <Grid.Column>
                         </Grid.Column>
                         <Grid.Column>
@@ -75,7 +75,7 @@ export default class CreateAccount extends Component {
                             </Grid.Column>
                             <Grid.Column>
                                 <p>
-                                    Birth Date:
+                                    Age:
                                 </p>
                             </Grid.Column>
                         </Grid.Row>
@@ -83,13 +83,9 @@ export default class CreateAccount extends Component {
                             <Grid.Column>
                             </Grid.Column>
                             <Grid.Column>
-                                <div className="ui calendar" id="example4">
-                                    <div className="ui input left icon">
-                                        <i className="calendar icon"/>
-                                        <input type="text" placeholder="MM/DD/YYYY"/>
-                                    </div>
+                                <div className="ui icon input">
+                                    <input type="text" placeholder=""/>
                                 </div>
-                                <br/>
                             </Grid.Column>
                         </Grid.Row>
                         <Grid.Row>
@@ -105,12 +101,9 @@ export default class CreateAccount extends Component {
                             <Grid.Column>
                             </Grid.Column>
                             <Grid.Column>
-                                <select className="ui dropdown">
-                                    <option value="">Gender</option>
-                                    <option value="2">Male</option>
-                                    <option value="1">Female</option>
-                                    <option value="0">Other</option>
-                                </select>
+                                <div className="ui icon input">
+                                    <input type="text" placeholder=""/>
+                                </div>
                             </Grid.Column>
                         </Grid.Row>
                         <Grid.Column>
