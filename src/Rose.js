@@ -32,9 +32,11 @@ export default class Rose extends Component {
                     </Grid>
                     <Grid columns={3}>
                         <Grid.Column>
+                        <Link to='/Home'>
                             <button className="massive ui icon button">
                                 <i className="arrow alternate circle left icon"></i>
                             </button>
+                            </Link>
                         </Grid.Column>
                         <Grid.Column>
                             <Link to='/Home'>
@@ -56,28 +58,36 @@ export default class Rose extends Component {
                     <Grid columns={4}>
                         <Grid.Row>
                             <Grid.Column>
+                            <Link to='/Home'>
                                 <Button color='blue' className="massive ui icon button">
                                     <i color='blue' className= "building icon">
                                     </i>
                                 </Button>
+                                </Link>
                             </Grid.Column>
                             <Grid.Column>
+                            <Link to='/Rose'>
                                 <Button color='blue' className="massive ui icon button">
                                     <i color='blue' className= "pencil alternate icon">
                                     </i>
                                 </Button>
+                                </Link>
                             </Grid.Column>
                             <Grid.Column>
+                            <Link to='/Archives'>
                                 <Button color='blue' className="massive ui icon button">
                                     <i color='blue' className= "calendar alternate icon">
                                     </i>
                                 </Button>
+                                </Link>
                             </Grid.Column>
                             <Grid.Column>
+                            <Link to='/Resources'>
                                 <Button color='blue' className="massive ui icon button">
                                     <i color='blue' className= "address book icon">
                                     </i>
                                 </Button>
+                                </Link>
                             </Grid.Column>
                         </Grid.Row>
                     </Grid>
