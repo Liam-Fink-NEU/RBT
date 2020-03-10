@@ -1,6 +1,7 @@
 import {Button, Form, Grid, Header, Image, Modal, TextArea} from "semantic-ui-react";
 import CheckBox from "./CheckBox";
 import React, {Component} from "react";
+import ImageFade from "./imagefade";
 
 export default class RosePage extends Component {
     render() {
@@ -24,13 +25,13 @@ export default class RosePage extends Component {
                     <Grid  columns='equal'>
                         <Grid.Row>
                             <Grid.Column>
-                                <Modal trigger={<Button color='blue'> I am a Text Button</Button>} closeIcon>
+                                <Modal trigger={<Button color='blue'>Please Click Me!</Button>} closeIcon>
                                     <Modal.Header>Hey!</Modal.Header>
                                     <Modal.Content>
                                         <Modal.Description>
                                             <Header>You Clicked my button!</Header>
                                             <p>
-                                                Try clicking the plus button next!
+                                                Try clicking the Super Secret Button next!
                                             </p>
                                         </Modal.Description>
                                     </Modal.Content>
@@ -69,12 +70,7 @@ export default class RosePage extends Component {
                             </div>
                         </Grid.Column>
                         <Grid.Column>
-                            <Button color='blue' animated size='big'>
-                                <Button.Content visible>Next</Button.Content>
-                                <Button.Content hidden>
-                                    To the draw page
-                                </Button.Content>
-                            </Button>
+                            <ImageFade/>
                         </Grid.Column>
                         <div className="ui bottom sidebar">
 
