@@ -1,6 +1,6 @@
 import React from 'react'
 import {Button, Grid, Tab} from 'semantic-ui-react'
-import RosePage from '/Users/liamfink/class-app/src/RosePage.js';
+import Resources from './Resources.js';
 import WebData from "./WebData";
 import LogIn from "./LogIn";
 import CreateAccount from "./CreateAccount";
@@ -20,7 +20,7 @@ const panes = [
     { menuItem: 'Bud', render: () => <Tab.Pane> <Bud/> </Tab.Pane> },
     { menuItem: 'Thorn', render: () => <Tab.Pane> <Thorn/> </Tab.Pane> },
     { menuItem: 'Archives', render: () => <Tab.Pane><WebData/></Tab.Pane> },
-    { menuItem: 'Resources', render: () => <Tab.Pane> <RosePage/> </Tab.Pane> },
+    { menuItem: 'Resources', render: () => <Tab.Pane> <Resources/> </Tab.Pane> },
 ];
 
 const TabExampleDefaultActiveIndex = () => (
