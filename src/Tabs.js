@@ -28,7 +28,7 @@ const panes = [
 
 //export default TabExampleDefaultActiveIndex;
 class TabExampleDefaultActiveIndex extends Component {
-    state = { activeIndex: 0 };
+    state = { activeIndex: 1 };
 
     handleRangeChange = (e) => this.setState({ activeIndex: e.target.value });
     handleTabChange = (e, { activeIndex }) => this.setState({ activeIndex });

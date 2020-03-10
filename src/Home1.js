@@ -1,6 +1,7 @@
-import {Button, Grid, Image} from "semantic-ui-react";
+import {Button, Form, Grid, Header, Image, Modal, TextArea} from "semantic-ui-react";
+import CheckBox from "./CheckBox";
 import React, {Component} from "react";
-
+import ImageFade from "./imagefade";
 
 export default class Home1 extends Component {
     render() {
