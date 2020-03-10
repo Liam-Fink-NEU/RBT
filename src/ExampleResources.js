@@ -12,7 +12,7 @@ export default class ExampleResources extends Component {
                         <Grid.Column>
                             <Grid.Row>
                                 <h1 className="ui blue header">
-                                    Mental Health Hotline 1-800-950-6264
+                                    Depression Hotline 1-800-950-6264
                                 </h1>
                             </Grid.Row>
                         </Grid.Column>

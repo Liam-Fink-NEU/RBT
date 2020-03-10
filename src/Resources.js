@@ -20,45 +20,45 @@ export default class Resources extends Component {
                             <Grid.Column>
                             </Grid.Column>
                             <Grid.Column>
-                                <p>
-                                    Mental Health Hotline
-                                </p>
+                                <button className="huge ui button">
+                                     Depression
+                                </button>
                             </Grid.Column>
                         </Grid.Row>
                         <Grid.Row>
                             <Grid.Column>
                             </Grid.Column>
                             <Grid.Column>
-                                <p>
-                                    Anxiety Hotline
-                                </p>
+                                <button className="huge ui button">
+                                    Anxiety
+                                </button>
                             </Grid.Column>
                         </Grid.Row>
                         <Grid.Row>
                             <Grid.Column>
                             </Grid.Column>
                             <Grid.Column>
-                                <p>
-                                    Eating Disorder Hotline
-                                </p>
+                                <button className="huge ui button">
+                                    Suicide Prevention
+                                </button>
                             </Grid.Column>
                         </Grid.Row>
                         <Grid.Row>
                             <Grid.Column>
                             </Grid.Column>
                             <Grid.Column>
-                                <p>
+                                <button className="huge ui button">
                                     University Health Services
-                                </p>
+                                </button>
                             </Grid.Column>
                         </Grid.Row>
                         <Grid.Row>
                             <Grid.Column>
                             </Grid.Column>
                             <Grid.Column>
-                                <p>
-                                    Stress Hotline
-                                </p>
+                                <button className="huge ui button">
+                                    Stress
+                                 </button>
                             </Grid.Column>
                         </Grid.Row>
                         <Grid.Column>
