@@ -1,6 +1,7 @@
 import React from 'react'
 import {Button, Grid, Tab} from 'semantic-ui-react'
 import Resources from './Resources.js';
+import ExampleResources from './ExampleResources.js';
 import WebData from "./WebData";
 import LogIn from "./LogIn";
 import CreateAccount from "./CreateAccount";
@@ -20,6 +21,7 @@ const panes = [
     { menuItem: 'Thorn', render: () => <Tab.Pane> <Thorn/> </Tab.Pane> },
     { menuItem: 'Archives', render: () => <Tab.Pane><WebData/></Tab.Pane> },
     { menuItem: 'Resources', render: () => <Tab.Pane> <Resources/> </Tab.Pane> },
+    { menuItem: 'Example Resources', render: () => <Tab.Pane> <ExampleResources/> </Tab.Pane> },
 ];
 
 const TabExampleDefaultActiveIndex = () => (
