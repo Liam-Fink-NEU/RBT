@@ -6,6 +6,9 @@ import LogIn from "./LogIn";
 import CreateAccount from "./CreateAccount";
 import Home1 from "./Home1";
 import Home from "./Home";
+import Rose from "./Rose";
+import Bud from "./Bud";
+import Thorn from "./Thorn";
 import {SketchField, Tools} from 'react-sketch';
 
 const panes = [
@@ -13,24 +16,9 @@ const panes = [
     { menuItem: 'Register', render: () => <Tab.Pane> <CreateAccount/> </Tab.Pane> },
     { menuItem: 'Home', render: () => <Tab.Pane> <Home1/> </Tab.Pane> },
     { menuItem: 'Home2', render: () => <Tab.Pane> <Home/> </Tab.Pane> },
-    { menuItem: 'Rose', render: () =>
-            <Tab.Pane> <Grid.Row><p>
-                Click and hold to draw lines!
-            </p> </Grid.Row>
-                <Grid.Row>
-                    <SketchField
-                       height='980px'
-                       backgroundColor='gray'
-                       tool={Tools.Line}
-                       lineColor='black'
-                       lineWidth={3}/>
-                </Grid.Row>
-                <Grid.Row>
-
-                </Grid.Row>
-            </Tab.Pane> },
-    { menuItem: 'Bud', render: () => <Tab.Pane> <RosePage/> </Tab.Pane> },
-    { menuItem: 'Thorn', render: () => <Tab.Pane> <RosePage/> </Tab.Pane> },
+    { menuItem: 'Rose', render: () => <Tab.Pane> <Rose/> </Tab.Pane> },
+    { menuItem: 'Bud', render: () => <Tab.Pane> <Bud/> </Tab.Pane> },
+    { menuItem: 'Thorn', render: () => <Tab.Pane> <Thorn/> </Tab.Pane> },
     { menuItem: 'Archives', render: () => <Tab.Pane><WebData/></Tab.Pane> },
     { menuItem: 'Resources', render: () => <Tab.Pane> <RosePage/> </Tab.Pane> },
 ];
