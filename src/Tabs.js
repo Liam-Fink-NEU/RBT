@@ -9,7 +9,6 @@ import Home from "./Home";
 import Rose from "./Rose";
 import Bud from "./Bud";
 import Thorn from "./Thorn";
-import {SketchField, Tools} from 'react-sketch';
 
 const panes = [
     { menuItem: 'Log In', render: () => <Tab.Pane> <LogIn/> </Tab.Pane> },

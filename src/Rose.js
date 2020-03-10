@@ -13,12 +13,40 @@ export default class Rose extends Component {
                             </h1>
                         </Grid.Row>
                     </Grid>
-                    <Grid>
-                        <Grid.Row>
-                            <Form>
-                                <TextArea placeholder='Fell free to write a post here!' />
-                            </Form>
-                        </Grid.Row>
+                    <Grid columns={1}>
+                        <Grid.Column>
+                            <h4 className="ui grey inverted header">
+                                Write down a couple of good things that happened today:
+                            </h4>
+                            <Grid.Row>
+                                <div className="ui form">
+                                    <div className="field">
+                                        <textarea>
+
+                                        </textarea>
+                                    </div>
+                                </div>
+                            </Grid.Row>
+                        </Grid.Column>
+                    </Grid>
+                    <Grid columns={3}>
+                        <Grid.Column>
+                            <button className="massive ui icon button">
+                                <i className="arrow alternate circle left icon"></i>
+                            </button>
+                        </Grid.Column>
+                        <Grid.Column>
+                            <button className="ui  button">
+                                <i>
+                                    Save For Later
+                                </i>
+                            </button>
+                        </Grid.Column>
+                        <Grid.Column>
+                            <button className="massive ui icon button">
+                                <i className="arrow alternate circle right icon"></i>
+                            </button>
+                        </Grid.Column>
                     </Grid>
                     <Grid columns={4}>
                         <Grid.Row>
