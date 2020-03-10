@@ -21,7 +21,7 @@ export default class Resources extends Component {
                             </Grid.Column>
                             <Grid.Column>
                                 <p>
-                                    Depression
+                                    Mental Health Hotline
                                 </p>
                             </Grid.Column>
                         </Grid.Row>
@@ -30,7 +30,7 @@ export default class Resources extends Component {
                             </Grid.Column>
                             <Grid.Column>
                                 <p>
-                                    Anxiety
+                                    Anxiety Hotline
                                 </p>
                             </Grid.Column>
                         </Grid.Row>
@@ -39,7 +39,7 @@ export default class Resources extends Component {
                             </Grid.Column>
                             <Grid.Column>
                                 <p>
-                                    Eating Disorders
+                                    Eating Disorder Hotline
                                 </p>
                             </Grid.Column>
                         </Grid.Row>
@@ -48,7 +48,7 @@ export default class Resources extends Component {
                             </Grid.Column>
                             <Grid.Column>
                                 <p>
-                                    Stress
+                                    University Health Services
                                 </p>
                             </Grid.Column>
                         </Grid.Row>
@@ -57,7 +57,7 @@ export default class Resources extends Component {
                             </Grid.Column>
                             <Grid.Column>
                                 <p>
-                                    Sexual Abuse
+                                    Stress Hotline
                                 </p>
                             </Grid.Column>
                         </Grid.Row>

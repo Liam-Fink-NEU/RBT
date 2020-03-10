@@ -12,7 +12,7 @@ export default class ExampleResources extends Component {
                         <Grid.Column>
                             <Grid.Row>
                                 <h1 className="ui blue header">
-                                    Depression Resources
+                                    Mental Health Hotline 1-800-950-6264
                                 </h1>
                             </Grid.Row>
                         </Grid.Column>
@@ -21,48 +21,13 @@ export default class ExampleResources extends Component {
                             </Grid.Column>
                             <Grid.Column>
                                 <p>
-                                    National Alliance on Mental Illness
+                                NAMI is the largest grassroots organization devoted to improving the lives 
+                                of those affected by mental illness. Through various programs, it aims to 
+                                change public perception about mental illness, help its members manage mental 
+                                illness and build up family relationships.
                                 </p>
                             </Grid.Column>
-                        </Grid.Row>
-                        <Grid.Row>
-                            <Grid.Column>
-                            </Grid.Column>
-                            <Grid.Column>
-                                <p>
-                                    National Institute of Mental Health
-                                </p>
-                            </Grid.Column>
-                        </Grid.Row>
-                        <Grid.Row>
-                            <Grid.Column>
-                            </Grid.Column>
-                            <Grid.Column>
-                                <p>
-                                     CareForYourMind
-                                </p>
-                            </Grid.Column>
-                        </Grid.Row>
-                        <Grid.Row>
-                            <Grid.Column>
-                            </Grid.Column>
-                            <Grid.Column>
-                                <p>
-                                    Erika's Lighthouse
-                                </p>
-                            </Grid.Column>
-                        </Grid.Row>
-                        <Grid.Row>
-                            <Grid.Column>
-                            </Grid.Column>
-                            <Grid.Column>
-                                <p>
-                                    MoodNetwork
-                                </p>
-                            </Grid.Column>
-                        </Grid.Row>
-                        <Grid.Column>
-                        </Grid.Column>
+                        </Grid.Row> 
                         <div className="ui bottom sidebar">
                         </div>
                     </Grid>
