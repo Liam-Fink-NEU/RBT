@@ -1,4 +1,4 @@
-import {Button, Form, Grid, Header, Image, Modal, TextArea} from "semantic-ui-react";
+import {Button, Grid} from "semantic-ui-react";
 import React, {Component} from "react";
 
 export default class Thorn extends Component {

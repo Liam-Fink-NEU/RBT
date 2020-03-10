@@ -1,4 +1,4 @@
-import {Button, Form, Grid, Header, Image, Modal, TextArea, Calendar} from "semantic-ui-react";
+import {Grid} from "semantic-ui-react";
 import React, {Component} from "react";
 
 export default class CreateAccount extends Component {
