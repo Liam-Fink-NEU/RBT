@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react'
 import {Tab} from 'semantic-ui-react'
 import Resources from './Resources.js';
 import LogIn from "./LogIn";
@@ -8,7 +8,7 @@ import Home from "./Home";
 import Rose from "./Rose";
 import Bud from "./Bud";
 import Thorn from "./Thorn";
-import Archives from "./Archives";
+import Archives from "./Archives"
 
 const panes = [
     { menuItem: 'Log In', render: () => <Tab.Pane> <LogIn/> </Tab.Pane> },
@@ -22,39 +22,8 @@ const panes = [
     { menuItem: 'Resources', render: () => <Tab.Pane> <Resources/> </Tab.Pane> },
 ];
 
-//const TabExampleDefaultActiveIndex = () => (
-//    <Tab panes={panes} defaultActiveIndex={0} />
-//);
-
-//export default TabExampleDefaultActiveIndex;
-class TabExampleDefaultActiveIndex extends Component {
-    state = { activeIndex: 1 };
-
-    handleRangeChange = (e) => this.setState({ activeIndex: e.target.value });
-    handleTabChange = (e, { activeIndex }) => this.setState({ activeIndex });
-
-    render() {
-        const { activeIndex } = this.state;
-
-        return (
-            <div>
-                <div>activeIndex: {activeIndex}</div>
-                <input
-                    type='range'
-                    max='8'
-                    value={activeIndex}
-                    onChange={this.handleRangeChange}
-                />
-                <Tab
-                    panes={panes}
-                    activeIndex={activeIndex}
-                    onTabChange={this.handleTabChange}
-                />
-            </div>
-        )
-    }
-}
+const TabExampleDefaultActiveIndex = () => (
+    <Tab panes={panes} defaultActiveIndex={0} />
+);
 
 export default TabExampleDefaultActiveIndex;
-
-
