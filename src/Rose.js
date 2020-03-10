@@ -1,5 +1,6 @@
 import {Button, Grid} from "semantic-ui-react";
 import React, {Component} from "react";
+import { Link } from 'react-router-dom';
 
 export default class Rose extends Component {
     render() {
@@ -36,16 +37,20 @@ export default class Rose extends Component {
                             </button>
                         </Grid.Column>
                         <Grid.Column>
+                            <Link to='/Home'>
                             <button className="ui  button">
                                 <i>
                                     Save For Later
                                 </i>
                             </button>
+                            </Link>
                         </Grid.Column>
                         <Grid.Column>
+                        <Link to="/Bud">
                             <button className="massive ui icon button">
                                 <i className="arrow alternate circle right icon"></i>
                             </button>
+                            </Link>
                         </Grid.Column>
                     </Grid>
                     <Grid columns={4}>
