@@ -36,6 +36,7 @@ class TabExampleDefaultActiveIndex extends Component {
     handleTabChange = (e, { activeIndex }) => this.setState({ activeIndex });
 
     render() {
+
         const { activeIndex } = this.state;
 
         return (
@@ -43,7 +44,7 @@ class TabExampleDefaultActiveIndex extends Component {
                 <div>activeIndex: {activeIndex}</div>
                 <input
                     type='range'
-                    max='8'
+                    max='9'
                     value={activeIndex}
                     onChange={this.handleRangeChange}
                 />

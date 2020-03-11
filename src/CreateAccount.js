@@ -1,5 +1,6 @@
 import {Grid} from "semantic-ui-react";
 import React, {Component} from "react";
+import {Link} from "react-router-dom";
 
 export default class CreateAccount extends Component {
     render() {
@@ -110,9 +111,11 @@ export default class CreateAccount extends Component {
 
                         </Grid.Column>
                         <Grid.Column>
+                            <Link to='/Home1'>
                             <button className="huge blue ui button">
                                 Create Account
                             </button>
+                            </Link>
                         </Grid.Column>
                         <Grid.Column>
 

@@ -39,7 +39,7 @@ export default class Rose extends Component {
                             </Link>
                         </Grid.Column>
                         <Grid.Column>
-                            <Link to='/Home'>
+                            <Link to='/Home1'>
                             <button className="ui  button">
                                 <i>
                                     Save For Later
@@ -58,7 +58,7 @@ export default class Rose extends Component {
                     <Grid columns={4}>
                         <Grid.Row>
                             <Grid.Column>
-                            <Link to='/Home'>
+                            <Link to='/Home1'>
                                 <Button color='blue' className="massive ui icon button">
                                     <i color='blue' className= "building icon">
                                     </i>

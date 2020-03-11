@@ -52,7 +52,7 @@ export default class Thorn extends Component {
                     <Grid columns={4}>
                         <Grid.Row>
                             <Grid.Column>
-                            <Link to='/Home'>
+                            <Link to='/Home1'>
                                 <Button color='blue' className="massive ui icon button">
                                     <i color='blue' className= "building icon">
                                     </i>
