@@ -32,21 +32,27 @@ export default class Bud extends Component {
                     </Grid>
                     <Grid columns={3}>
                         <Grid.Column>
+                        <Link to='/Rose'>
                             <button className="massive ui icon button">
                                 <i className="arrow alternate circle left icon"></i>
                             </button>
+                            </Link>
                         </Grid.Column>
                         <Grid.Column>
+                        <Link to='/Home'>
                             <button className="ui  button">
                                 <i>
                                     Save For Later
                                 </i>
                             </button>
+                            </Link>
                         </Grid.Column>
                         <Grid.Column>
+                        <Link to='/Thorn'>
                             <button className="massive ui icon button">
                                 <i className="arrow alternate circle right icon"></i>
                             </button>
+                            </Link>
                         </Grid.Column>
                     </Grid>
                     <Grid columns={4}>

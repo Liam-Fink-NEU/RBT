@@ -21,45 +21,55 @@ export default class Resources extends Component {
                             <Grid.Column>
                             </Grid.Column>
                             <Grid.Column>
+                            <Link to='/ExampleResources'>
                                 <button className="huge ui button">
                                      Depression
                                 </button>
+                                </Link>
                             </Grid.Column>
                         </Grid.Row>
                         <Grid.Row>
                             <Grid.Column>
                             </Grid.Column>
                             <Grid.Column>
+                            <Link to='/ExampleResources'>
                                 <button className="huge ui button">
                                     Anxiety
                                 </button>
+                                </Link>
                             </Grid.Column>
                         </Grid.Row>
                         <Grid.Row>
                             <Grid.Column>
                             </Grid.Column>
                             <Grid.Column>
+                            <Link to='/ExampleResources'>
                                 <button className="huge ui button">
                                     Suicide Prevention
                                 </button>
+                                </Link>
                             </Grid.Column>
                         </Grid.Row>
                         <Grid.Row>
                             <Grid.Column>
                             </Grid.Column>
                             <Grid.Column>
+                            <Link to='/ExampleResources'>
                                 <button className="huge ui button">
                                     University Health Services
                                 </button>
+                                </Link>
                             </Grid.Column>
                         </Grid.Row>
                         <Grid.Row>
                             <Grid.Column>
                             </Grid.Column>
                             <Grid.Column>
+                            <Link to='/ExampleResources'>
                                 <button className="huge ui button">
                                     Stress
                                  </button>
+                                 </Link>
                             </Grid.Column>
                         </Grid.Row>
                         <Grid.Column>
