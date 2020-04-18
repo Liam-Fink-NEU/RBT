@@ -40,17 +40,10 @@ export default class Thorn extends Component {
                         </Grid.Column>
                         <Grid.Column>
                         <Link to='/Home'>
-                            <button className="ui  button">
+                            <button className="massive ui  button">
                                 <i>
-                                    Save For Later
+                                    Submit Post
                                 </i>
-                            </button>
-                            </Link>
-                        </Grid.Column>
-                        <Grid.Column>
-                        <Link to='/Home1'>
-                            <button className="massive ui icon button">
-                                <i className="arrow alternate circle right icon"></i>
                             </button>
                             </Link>
                         </Grid.Column>
@@ -62,6 +55,7 @@ export default class Thorn extends Component {
                                 <Button color='blue' className="massive ui icon button">
                                     <i color='blue' className= "building icon">
                                     </i>
+                                    Home
                                 </Button>
                                 </Link>
                             </Grid.Column>
@@ -70,6 +64,7 @@ export default class Thorn extends Component {
                                 <Button color='blue' className="massive ui icon button">
                                     <i color='blue' className= "pencil alternate icon">
                                     </i>
+                                    Write
                                 </Button>
                                 </Link>
                             </Grid.Column>
@@ -78,6 +73,7 @@ export default class Thorn extends Component {
                                 <Button color='blue' className="massive ui icon button">
                                     <i color='blue' className= "calendar alternate icon">
                                     </i>
+                                    Archives
                                 </Button>
                                 </Link>
                             </Grid.Column>
@@ -86,6 +82,7 @@ export default class Thorn extends Component {
                                 <Button color='blue' className="massive ui icon button">
                                     <i color='blue' className= "address book icon">
                                     </i>
+                                    Resources
                                 </Button>
                                 </Link>
                             </Grid.Column>

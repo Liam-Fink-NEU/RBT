@@ -1,13 +1,24 @@
-import {Grid} from "semantic-ui-react";
+import {Grid, Input, Button} from "semantic-ui-react";
 import React, {Component} from "react";
 import {Link} from "react-router-dom";
 
 export default class CreateAccount extends Component {
+    state={
+        passwordValue: "",
+        passwordConfirmValue: "",
+        error: ""
+    };
+    constructor(props) {
+        super(props);
+        this.setPassword = this.setPassword.bind(this);
+        this.setPasswordConfirm = this.setPasswordConfirm.bind(this);
+        this.comparePassword = this.comparePassword.bind(this);
+    }
     render() {
         return (
             <div className="App">
                 <header className="App-header">
-                    <Grid columns={3}>
+                    <Grid columns={3} >
                         <Grid.Column>
                         </Grid.Column>
                         <Grid.Column>
@@ -49,7 +60,7 @@ export default class CreateAccount extends Component {
                             </Grid.Column>
                             <Grid.Column>
                                 <div className="ui icon input">
-                                    <input type="text" placeholder=""/>
+                                    <Input type= {"password"} value={this.state.passwordValue} onChange={this.setPassword}/>
                                 </div>
                             </Grid.Column>
                         </Grid.Row>
@@ -67,7 +78,7 @@ export default class CreateAccount extends Component {
                             </Grid.Column>
                             <Grid.Column>
                                 <div className="ui icon input">
-                                    <input type="text" placeholder=""/>
+                                    <Input type= {"password"} value={this.state.passwordConfirmValue} onChange={this.setPasswordConfirm}/>
                                 </div>
                             </Grid.Column>
                         </Grid.Row>
@@ -76,7 +87,7 @@ export default class CreateAccount extends Component {
                             </Grid.Column>
                             <Grid.Column>
                                 <p>
-                                    Age:
+                                    Birth Date:
                                 </p>
                             </Grid.Column>
                         </Grid.Row>
@@ -84,9 +95,13 @@ export default class CreateAccount extends Component {
                             <Grid.Column>
                             </Grid.Column>
                             <Grid.Column>
-                                <div className="ui icon input">
-                                    <input type="text" placeholder=""/>
+                                <div className="ui calendar" id="example4">
+                                    <div className="ui input left icon">
+                                        <i className="calendar icon"/>
+                                        <input type="text" placeholder="MM/DD/YYYY"/>
+                                    </div>
                                 </div>
+                                <br/>
                             </Grid.Column>
                         </Grid.Row>
                         <Grid.Row>
@@ -102,9 +117,12 @@ export default class CreateAccount extends Component {
                             <Grid.Column>
                             </Grid.Column>
                             <Grid.Column>
-                                <div className="ui icon input">
-                                    <input type="text" placeholder=""/>
-                                </div>
+                                <select className="ui dropdown">
+                                    <option value="">Gender</option>
+                                    <option value="2">Male</option>
+                                    <option value="1">Female</option>
+                                    <option value="0">Other</option>
+                                </select>
                             </Grid.Column>
                         </Grid.Row>
                         <Grid.Column>
@@ -112,9 +130,9 @@ export default class CreateAccount extends Component {
                         </Grid.Column>
                         <Grid.Column>
                             <Link to='/Home1'>
-                            <button className="huge blue ui button">
-                                Create Account
-                            </button>
+                                <Button className="huge blue ui button" onClick={this.comparePassword}>
+                                    Create Account
+                                </Button>
                             </Link>
                         </Grid.Column>
                         <Grid.Column>
@@ -127,5 +145,16 @@ export default class CreateAccount extends Component {
                 </header>
             </div>
         );
+    }
+    setPassword(value) {
+        this.setState({passwordValue : value.target.value});
+        console.log(this.state.passwordValue);
+    }
+    setPasswordConfirm(value) {
+        this.setState({passwordConfirmValue : value.target.value});
+    }
+    comparePassword() {
+        alert(this.state.passwordValue === this.state.passwordConfirmValue);
+
     }
 }

@@ -1,4 +1,4 @@
-import {Grid} from "semantic-ui-react";
+import {Grid, Input} from "semantic-ui-react";
 import React, {Component} from "react";
 import {Link} from "react-router-dom";
 
@@ -48,13 +48,17 @@ export default class LogIn extends Component {
                             <Grid.Column>
                             </Grid.Column>
                             <Grid.Column>
-                                <div className="ui big icon input">
-                                    <input type="text" placeholder=""/>
+                                <div className=" huge ui icon input">
+                                    <Input type= {"password"}/>
                                 </div>
                             </Grid.Column>
                         </Grid.Row>
                         <Grid.Column>
-
+                            <Link to='/CreateAccount'>
+                                <button className="huge ui button">
+                                    Create Account
+                                </button>
+                            </Link>
                         </Grid.Column>
                         <Grid.Column>
                             <Link to='/Home1'>

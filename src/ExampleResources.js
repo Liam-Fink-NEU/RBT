@@ -39,6 +39,7 @@ export default class ExampleResources extends Component {
                                 <Button color='blue' className="massive ui icon button">
                                     <i color='blue' className= "building icon">
                                     </i>
+                                    Home
                                 </Button>
                                 </Link>
                             </Grid.Column>
@@ -47,6 +48,7 @@ export default class ExampleResources extends Component {
                                 <Button color='blue' className="massive ui icon button">
                                     <i color='blue' className= "pencil alternate icon">
                                     </i>
+                                    Write
                                 </Button>
                                 </Link>
                             </Grid.Column>
@@ -55,6 +57,7 @@ export default class ExampleResources extends Component {
                                 <Button color='blue' className="massive ui icon button">
                                     <i color='blue' className= "calendar alternate icon">
                                     </i>
+                                    Archives
                                 </Button>
                                 </Link>
                             </Grid.Column>
@@ -63,6 +66,7 @@ export default class ExampleResources extends Component {
                                 <Button color='blue' className="massive ui icon button">
                                     <i color='blue' className= "address book icon">
                                     </i>
+                                    Resources
                                 </Button>
                                 </Link>
                             </Grid.Column>

@@ -16,7 +16,7 @@ import ExampleResources from './ExampleResources';
 function App() {
   return (
     <Router>
-      <Route exact path='/' component={Tabs} />
+      <Route exact path='/' component={LogIn} />
       <Route exact path='/Home' component={Home} />
       <Route exact path='/Home1' component={Home1} />
       <Route exact path='/Rose' component={Rose} />
